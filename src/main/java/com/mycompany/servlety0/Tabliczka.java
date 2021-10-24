@@ -42,7 +42,7 @@ public class Tabliczka extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet Tabliczka</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body style='background-color: lightgray'>");
             out.println("<h1>Tabliczka mnożenia</h1>");
             out.println("<table>");
             out.println("<style>table,tr,td{border:1px solid black;border-collapse:collapse;}</style>");
@@ -58,7 +58,7 @@ public class Tabliczka extends HttpServlet {
                 out.println("</tr>");
             }
             out.println("</table>");
-            out.println("<a href='/Servlety0/'>Strona główna</a>");
+            out.println("<br><a href='/Servlety0/'>&#8592 Strona główna</a>");
             out.println("</body>");
             out.println("</html>");
         }

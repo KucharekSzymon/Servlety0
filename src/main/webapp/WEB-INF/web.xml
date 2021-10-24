@@ -8,9 +8,17 @@
             <param-value>5</param-value>
         </init-param>
     </servlet>
+    <servlet>
+        <servlet-name>Walidacja</servlet-name>
+        <servlet-class>com.mycompany.servlety0.Walidacja</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Tabliczka</servlet-name>
         <url-pattern>/Tabliczka</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Walidacja</servlet-name>
+        <url-pattern>/plk.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
