@@ -33,6 +33,7 @@ public class Walidacja extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
+            String bot = request.getParameter("bot");
             String name = request.getParameter("name");
             String pesel = request.getParameter("pesel");
             String bdate = request.getParameter("bdate");
@@ -50,6 +51,13 @@ public class Walidacja extends HttpServlet {
             out.println("<body style='background-color: lightgray'>");
 
             //Name
+            if(bot != ""){
+                out.println("<p style='color:red'>Bot detected!");
+                out.println("<br><a href='/Servlety0/'>&#8592 Strona główna</a>");
+
+            }   
+            
+            else{
 
             Pattern pn = Pattern.compile("^[a-zA-Z'-]+$");
             Matcher mn = pn.matcher(name);
@@ -108,6 +116,7 @@ public class Walidacja extends HttpServlet {
             out.println("<br><a href='/Servlety0/'>&#8592 Strona główna</a>");
             out.println("</body>");
             out.println("</html>");
+                    }
         }
     }
 

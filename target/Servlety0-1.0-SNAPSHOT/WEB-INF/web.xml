@@ -12,6 +12,10 @@
         <servlet-name>Walidacja</servlet-name>
         <servlet-class>com.mycompany.servlety0.Walidacja</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>MagicSquare</servlet-name>
+        <servlet-class>com.mycompany.servlety0.MagicSquare</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Tabliczka</servlet-name>
         <url-pattern>/Tabliczka</url-pattern>
@@ -19,6 +23,10 @@
     <servlet-mapping>
         <servlet-name>Walidacja</servlet-name>
         <url-pattern>/plk.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MagicSquare</servlet-name>
+        <url-pattern>/MagicSquare</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
