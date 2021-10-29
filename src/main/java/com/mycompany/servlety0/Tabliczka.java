@@ -40,7 +40,7 @@ public class Tabliczka extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Tabliczka</title>");            
+            out.println("<title>Servlet Tabliczkaaaaaaaa</title>");            
             out.println("</head>");
             out.println("<body style='background-color: lightgray'>");
             out.println("<h1>Tabliczka mnożenia</h1>");
