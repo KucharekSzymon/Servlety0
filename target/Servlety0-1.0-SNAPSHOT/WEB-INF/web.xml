@@ -16,6 +16,18 @@
         <servlet-name>MagicSquare</servlet-name>
         <servlet-class>com.mycompany.servlety0.MagicSquare</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Kostka</servlet-name>
+        <servlet-class>com.mycompany.servlety0.Kostka</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Iloczyn</servlet-name>
+        <servlet-class>com.mycompany.servlety0.Iloczyn</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Wykres</servlet-name>
+        <servlet-class>com.mycompany.servlety0.Wykres</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Tabliczka</servlet-name>
         <url-pattern>/Tabliczka</url-pattern>
@@ -27,6 +39,18 @@
     <servlet-mapping>
         <servlet-name>MagicSquare</servlet-name>
         <url-pattern>/MagicSquare</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Kostka</servlet-name>
+        <url-pattern>/Kostka</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Iloczyn</servlet-name>
+        <url-pattern>/Iloczyn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Wykres</servlet-name>
+        <url-pattern>/Wykres</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
